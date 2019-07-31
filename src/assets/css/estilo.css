@@ -1,0 +1,120 @@
+body{
+    background-color: #999999;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.colorCabecalho{
+  background-color: #d61713 !important;
+
+}
+
+.nav-link, .navbar-brand{
+  color: #fff !important;
+}
+
+.navbar-brand{
+  cursor: default;
+}
+
+
+
+
+
+
+
+
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cardImage {
+    border-radius: 5px 5px 0 0;
+    width: 80%;
+   
+  }
+
+
+  .card-container {
+      box-shadow: #0000;
+      padding-top: 25px;
+  }
+
+ 
+
+
+  .contatosLogo{
+    width: 20%;
+  }
+ 
+
+
+/*media queries*/
+
+@media(max-width: 340px){
+  .logoBreis{
+    width: 30%;
+    margin-left: 50%;
+  }
+ 
+
+  .moveBrand{
+    font-size: 11px;
+  }
+}
+
+
+@media (min-width: 360px) 
+{
+  .logoBreis{
+    width: 37%;
+    margin-left: 50%;
+  }
+ 
+
+  .moveBrand{
+    font-size: 14.5px;
+  }
+}
+
+
+@media (min-width: 980px) 
+{
+  .logoBreis{
+    width: 50%;
+
+  }
+  .moveLogo{
+    margin-left: 30%;
+  }
+
+  .moveBrand{
+    margin-left: 2%;
+    font-size: 20px;
+  }
+
+ 
+}
