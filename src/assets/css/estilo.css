@@ -1,5 +1,5 @@
 body{
-    background-color: #999999;
+    background-color: #f5f5f5 !important;
 }
 
 html {
@@ -26,8 +26,9 @@ body {
 }
 
 
-
-
+.divrodape{
+  background-color: #f5f5f5;
+}
 
 
 
@@ -61,42 +62,62 @@ body {
   .card-container {
       box-shadow: #0000;
       padding-top: 25px;
+      
   }
 
  
 
 
-  .contatosLogo{
-    width: 20%;
-  }
- 
 
+ 
+  .text-center{
+    text-align: center !important;
+  }
+
+  .logoCenter{
+    text-align: center !important;
+    margin-bottom: 7px;
+  }
 
 /*media queries*/
 
 @media(max-width: 340px){
   .logoBreis{
-    width: 30%;
-    margin-left: 50%;
+    width: 22%;
+    
   }
  
 
   .moveBrand{
-    font-size: 11px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
   }
+  
+  .contatosLogo{
+    width: 25%;
+    margin-left: 10px;
+  }
+
 }
 
 
 @media (min-width: 360px) 
 {
   .logoBreis{
-    width: 37%;
-    margin-left: 50%;
+    width: 25%;
+    
   }
  
 
   .moveBrand{
-    font-size: 14.5px;
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+  }
+  .contatosLogo{
+    width: 25%;
+    margin-left: 10px;
   }
 }
 
@@ -104,16 +125,23 @@ body {
 @media (min-width: 980px) 
 {
   .logoBreis{
-    width: 50%;
+    width: 7%;
+    margin-left: 10px;
+  }
 
-  }
-  .moveLogo{
-    margin-left: 30%;
-  }
 
   .moveBrand{
-    margin-left: 2%;
-    font-size: 20px;
+    margin-left: 30%;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    
+  }
+
+  .contatosLogo{
+    width: 10%;
+    margin-left: 10px;
+    
   }
 
  
