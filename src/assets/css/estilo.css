@@ -79,6 +79,8 @@ body {
     margin-bottom: 7px;
   }
 
+ 
+
 /*media queries*/
 
 @media(max-width: 340px){
@@ -97,6 +99,10 @@ body {
   .contatosLogo{
     width: 25%;
     margin-left: 10px;
+  }
+
+  .pudimWidth{
+    width: 57%;
   }
 
 }
@@ -118,6 +124,10 @@ body {
   .contatosLogo{
     width: 25%;
     margin-left: 10px;
+  }
+
+  .pudimWidth{
+    width: 57%;
   }
 }
 
@@ -142,6 +152,10 @@ body {
     width: 10%;
     margin-left: 10px;
     
+  }
+
+  .pudimWidth{
+    width: 20%;
   }
 
  
